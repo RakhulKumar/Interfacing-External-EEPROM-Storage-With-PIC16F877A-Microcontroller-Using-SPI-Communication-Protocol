@@ -1,0 +1,242 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"49 C:\Users\nandi\MPLABXProjects\spi_interface_pic.X\spi_read_write.c
+[v _delay delay `(v  1 e 1 0 ]
+"55
+[v _SPI_init SPI_init `(v  1 e 1 0 ]
+"68
+[v _SPI_write SPI_write `(v  1 e 1 0 ]
+"75
+[v _SPI_read SPI_read `(uc  1 e 1 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+"112
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+"130
+[v _EEPROM_read EEPROM_read `(uc  1 e 1 0 ]
+"144
+[v _EEPROM_status EEPROM_status `(uc  1 e 1 0 ]
+"154
+[v _EEPROM_busy EEPROM_busy `(uc  1 e 1 0 ]
+"168
+[v _lcdcmd lcdcmd `(v  1 e 1 0 ]
+"177
+[v _lcddata lcddata `(v  1 e 1 0 ]
+"186
+[v _msdelay msdelay `(v  1 e 1 0 ]
+"632 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S67 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"832
+[s S72 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S77 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S79 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S82 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S85 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S88 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S93 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S98 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S103 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[u S108 . 1 `S67 1 . 1 0 `S72 1 . 1 0 `S77 1 . 1 0 `S79 1 . 1 0 `S82 1 . 1 0 `S85 1 . 1 0 `S88 1 . 1 0 `S93 1 . 1 0 `S98 1 . 1 0 `S103 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES108  1 e 1 @3972 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2365
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4690
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"5010
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"5080
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"5308
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"7129
+[v _BF BF `VEb  1 e 0 @32312 ]
+"8080
+[v _RA5 RA5 `VEb  1 e 0 @31749 ]
+"8578
+[v _TRISA5 TRISA5 `VEb  1 e 0 @31893 ]
+"8620
+[v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
+"8623
+[v _TRISC4 TRISC4 `VEb  1 e 0 @31908 ]
+"8626
+[v _TRISC5 TRISC5 `VEb  1 e 0 @31909 ]
+"33 C:\Users\nandi\MPLABXProjects\spi_interface_pic.X\spi_read_write.c
+[v _data data `[14]uc  1 e 14 0 ]
+"36
+[v _address address `[14]i  1 e 28 0 ]
+"37
+[v _commands commands `[6]uc  1 e 6 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+{
+"103
+[v main@j j `i  1 a 2 14 ]
+"98
+[v main@i_179 i `i  1 a 2 12 ]
+"94
+[v main@i i `i  1 a 2 16 ]
+"111
+} 0
+"177
+[v _lcddata lcddata `(v  1 e 1 0 ]
+{
+[v lcddata@value value `uc  1 a 1 wreg ]
+[v lcddata@value value `uc  1 a 1 wreg ]
+"179
+[v lcddata@value value `uc  1 a 1 6 ]
+"185
+} 0
+"168
+[v _lcdcmd lcdcmd `(v  1 e 1 0 ]
+{
+[v lcdcmd@value value `uc  1 a 1 wreg ]
+[v lcdcmd@value value `uc  1 a 1 wreg ]
+"170
+[v lcdcmd@value value `uc  1 a 1 6 ]
+"176
+} 0
+"186
+[v _msdelay msdelay `(v  1 e 1 0 ]
+{
+"188
+[v msdelay@j j `i  1 a 2 4 ]
+[v msdelay@i i `i  1 a 2 2 ]
+"186
+[v msdelay@itime itime `ui  1 p 2 0 ]
+"191
+} 0
+"49
+[v _delay delay `(v  1 e 1 0 ]
+{
+"52
+[v delay@nCycles nCycles `ul  1 a 4 8 ]
+"49
+[v delay@nMilliseconds nMilliseconds `ui  1 p 2 6 ]
+"54
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"55 C:\Users\nandi\MPLABXProjects\spi_interface_pic.X\spi_read_write.c
+[v _SPI_init SPI_init `(v  1 e 1 0 ]
+{
+"66
+} 0
+"112
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+{
+[v EEPROM_write@address address `i  1 p 2 3 ]
+[v EEPROM_write@data data `uc  1 p 1 5 ]
+"128
+} 0
+"130
+[v _EEPROM_read EEPROM_read `(uc  1 e 1 0 ]
+{
+"138
+[v EEPROM_read@data data `uc  1 a 1 5 ]
+"130
+[v EEPROM_read@address address `i  1 p 2 3 ]
+"142
+} 0
+"154
+[v _EEPROM_busy EEPROM_busy `(uc  1 e 1 0 ]
+{
+"156
+[v EEPROM_busy@busy busy `uc  1 a 1 2 ]
+"159
+} 0
+"144
+[v _EEPROM_status EEPROM_status `(uc  1 e 1 0 ]
+{
+"148
+[v EEPROM_status@status status `uc  1 a 1 1 ]
+"152
+} 0
+"68
+[v _SPI_write SPI_write `(v  1 e 1 0 ]
+{
+[v SPI_write@data data `uc  1 a 1 wreg ]
+[v SPI_write@data data `uc  1 a 1 wreg ]
+"70
+[v SPI_write@data data `uc  1 a 1 0 ]
+"73
+} 0
+"75
+[v _SPI_read SPI_read `(uc  1 e 1 0 ]
+{
+[v SPI_read@dummy dummy `uc  1 a 1 wreg ]
+[v SPI_read@dummy dummy `uc  1 a 1 wreg ]
+"77
+[v SPI_read@dummy dummy `uc  1 a 1 0 ]
+"81
+} 0

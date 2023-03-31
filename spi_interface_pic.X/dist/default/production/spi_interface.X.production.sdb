@@ -1,0 +1,156 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"36 C:\Users\nandi\MPLABXProjects\spi_interface.X\spi_read_write.c
+[v _delay delay `(v  1 e 1 0 ]
+"42
+[v _SPI_init SPI_init `(v  1 e 1 0 ]
+"55
+[v _SPI_write SPI_write `(v  1 e 1 0 ]
+"62
+[v _SPI_read SPI_read `(uc  1 e 1 0 ]
+"72
+[v _main main `(v  1 e 1 0 ]
+"91
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+"109
+[v _EEPROM_read EEPROM_read `(uc  1 e 1 0 ]
+"123
+[v _EEPROM_status EEPROM_status `(uc  1 e 1 0 ]
+"133
+[v _EEPROM_busy EEPROM_busy `(uc  1 e 1 0 ]
+"632 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"5010
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"5080
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"5308
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"7129
+[v _BF BF `VEb  1 e 0 @32312 ]
+"8080
+[v _RA5 RA5 `VEb  1 e 0 @31749 ]
+"8578
+[v _TRISA5 TRISA5 `VEb  1 e 0 @31893 ]
+"8620
+[v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
+"8623
+[v _TRISC4 TRISC4 `VEb  1 e 0 @31908 ]
+"8626
+[v _TRISC5 TRISC5 `VEb  1 e 0 @31909 ]
+"26 C:\Users\nandi\MPLABXProjects\spi_interface.X\spi_read_write.c
+[v _data data `[16]uc  1 e 16 0 ]
+"28
+[v _address address `[16]i  1 e 32 0 ]
+"72
+[v _main main `(v  1 e 1 0 ]
+{
+"83
+[v main@i_67 i `i  1 a 2 12 ]
+"78
+[v main@i i `i  1 a 2 14 ]
+"90
+} 0
+"36
+[v _delay delay `(v  1 e 1 0 ]
+{
+"39
+[v delay@nCycles nCycles `ul  1 a 4 8 ]
+"36
+[v delay@nMilliseconds nMilliseconds `ui  1 p 2 6 ]
+"41
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"42 C:\Users\nandi\MPLABXProjects\spi_interface.X\spi_read_write.c
+[v _SPI_init SPI_init `(v  1 e 1 0 ]
+{
+"53
+} 0
+"91
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+{
+[v EEPROM_write@address address `i  1 p 2 3 ]
+[v EEPROM_write@data data `uc  1 p 1 5 ]
+"107
+} 0
+"109
+[v _EEPROM_read EEPROM_read `(uc  1 e 1 0 ]
+{
+"117
+[v EEPROM_read@data data `uc  1 a 1 5 ]
+"109
+[v EEPROM_read@address address `i  1 p 2 3 ]
+"121
+} 0
+"133
+[v _EEPROM_busy EEPROM_busy `(uc  1 e 1 0 ]
+{
+"135
+[v EEPROM_busy@busy busy `uc  1 a 1 2 ]
+"138
+} 0
+"123
+[v _EEPROM_status EEPROM_status `(uc  1 e 1 0 ]
+{
+"127
+[v EEPROM_status@status status `uc  1 a 1 1 ]
+"131
+} 0
+"55
+[v _SPI_write SPI_write `(v  1 e 1 0 ]
+{
+[v SPI_write@data data `uc  1 a 1 wreg ]
+[v SPI_write@data data `uc  1 a 1 wreg ]
+"57
+[v SPI_write@data data `uc  1 a 1 0 ]
+"60
+} 0
+"62
+[v _SPI_read SPI_read `(uc  1 e 1 0 ]
+{
+[v SPI_read@dummy dummy `uc  1 a 1 wreg ]
+[v SPI_read@dummy dummy `uc  1 a 1 wreg ]
+"64
+[v SPI_read@dummy dummy `uc  1 a 1 0 ]
+"68
+} 0
