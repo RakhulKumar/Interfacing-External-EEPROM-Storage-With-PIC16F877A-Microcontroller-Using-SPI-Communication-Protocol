@@ -22,6 +22,13 @@ Non-volatile storage is a type of computer memory that can retain the stored inf
 | 4           | Potentiometer       |10 k Ohms 
 | 5           | Connecting wires       |-
 
+# Schematic
+
+![schematic.png](/img/schematic.png)
+
+# Hardware Setup
+
+![hardware.png](/img/hardware.png)
 
 ## Scope for Extending our work
 
